@@ -28,6 +28,11 @@ public class YahooTestSearch {
         driver.get("http://www.yahoo.com");
     }
 
+    @Test
+    public void test002() throws Exception {
+        driver.get("http://www.google.com");
+    }
+
     @AfterTest
     public void closeBrowser(){
         driver.quit();
