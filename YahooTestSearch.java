@@ -1,5 +1,5 @@
 package loginEx;
-
+//Modified bakthiyor file
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
@@ -24,7 +24,7 @@ public class YahooTestSearch {
     }
 
     @Test
-    public void test001() throws Exception {
+    public void testOpenYahoo() throws Exception {
         driver.get("http://www.yahoo.com");
     }
 
